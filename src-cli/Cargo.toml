@@ -8,6 +8,8 @@ license.workspace = true
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
+ncurses = "5.101.0"
+librsdu = { path = "../src-lib" }
 
 [lints]
 workspace = true
