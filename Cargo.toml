@@ -1,0 +1,21 @@
+[workspace]
+members = ["src-lib", "src-cli"]
+resolver = "2"
+
+[workspace.package]
+authors = ["James Clarke <james@jamesdavidclarke.com>"]
+repository = "https://github.com/JamesClarke7283/rsdu"
+license = "Apache-2.0"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+pedantic = "warn"
+nursery = "warn"
+perf = "warn"
+style = "warn"
+complexity = "warn"
+suspicious = "warn"
+correctness = "warn"
+cargo = "warn"
